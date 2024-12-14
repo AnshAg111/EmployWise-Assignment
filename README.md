@@ -1,7 +1,4 @@
-Here's the updated `README.md` with the Vercel deployment link added:
-
-```markdown
-# React User Management System
+# React User Management Application
 
 This is a simple User Management System built with React that allows users to view, edit, and update user information. The project uses a REST API to interact with user data and features user authentication, data fetching, and state management using React Context API.
 
@@ -36,22 +33,10 @@ Ensure that you have the following installed on your local machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/user-management-system.git
+   git clone https://github.com/AnshAg111/EmployWise-Assignment
    ```
 
-2. Navigate to the project folder:
-
-   ```bash
-   cd user-management-system
-   ```
-
-3. Install the dependencies:
-
-   ```bash
-   npm install
-   ```
-
-   Or, if you're using yarn:
+2. Install the dependencies:
 
    ```bash
    yarn install
@@ -60,12 +45,6 @@ Ensure that you have the following installed on your local machine:
 ### Running the Application
 
 1. Start the development server:
-
-   ```bash
-   npm start
-   ```
-
-   Or:
 
    ```bash
    yarn start
