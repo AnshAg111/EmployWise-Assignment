@@ -1,3 +1,6 @@
+Here's the updated `README.md` with the Vercel deployment link added:
+
+```markdown
 # React User Management System
 
 This is a simple User Management System built with React that allows users to view, edit, and update user information. The project uses a REST API to interact with user data and features user authentication, data fetching, and state management using React Context API.
@@ -8,6 +11,7 @@ This is a simple User Management System built with React that allows users to vi
 - Edit user details (first name, last name, email)
 - Display success and error messages with Toast notifications
 - User authentication with token-based authorization
+- Loading spinner while fetching data
 - Responsive design with Material-UI components
 
 ## Technologies Used
@@ -32,10 +36,22 @@ Ensure that you have the following installed on your local machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/AnshAg111/EmployWise-Assignment.git
+   git clone https://github.com/your-username/user-management-system.git
    ```
 
-2. Install the dependencies:
+2. Navigate to the project folder:
+
+   ```bash
+   cd user-management-system
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+   Or, if you're using yarn:
 
    ```bash
    yarn install
@@ -44,6 +60,12 @@ Ensure that you have the following installed on your local machine:
 ### Running the Application
 
 1. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+   Or:
 
    ```bash
    yarn start
@@ -55,9 +77,14 @@ Ensure that you have the following installed on your local machine:
    http://localhost:3000
    ```
 
+### Live Demo
+
+You can view the live version of this project [here](https://employ-wise-assignment-mu.vercel.app/).
+
 ### API Integration
 
 This application integrates with a mock API (`https://reqres.in/api/users/`) to fetch and update user data. It uses the following endpoints:
 
 - `GET /api/users/{id}`: Fetch a user by ID.
 - `PUT /api/users/{id}`: Update a user's details.
+
